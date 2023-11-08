@@ -1,0 +1,32 @@
+POST http://localhost:3333/authenticate
+Content-Type: application/json
+
+{
+  "login": "andre@clicksul.com.br",
+  "password": "12345"
+}
+
+###
+
+GET https://node-do-zero-ot8g.onrender.com/videos
+
+###
+
+GET https://node-do-zero-ot8g.onrender.com/videos?search=node
+
+
+###
+
+PUT https://node-do-zero-ot8g.onrender.com/videos/dea4c46a-f533-4f93-80c2-4addb01f6974
+Content-Type: application/json
+
+
+{
+  "title": "Vídeo REACT",
+  "description": "Este é o vídeo 03",
+  "duration": 280
+}
+
+###
+
+DELETE https://node-do-zero-ot8g.onrender.com/videos/3490ae39-2670-4b0b-ac2f-c732543a583c
