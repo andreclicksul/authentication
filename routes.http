@@ -2,31 +2,25 @@ POST http://localhost:3333/authenticate
 Content-Type: application/json
 
 {
-  "login": "andre@clicksul.com.br",
+  "login": "amanda@clicksul.com.br",
   "password": "12345"
 }
 
 ###
 
-GET https://node-do-zero-ot8g.onrender.com/videos
-
-###
-
-GET https://node-do-zero-ot8g.onrender.com/videos?search=node
-
-
-###
-
-PUT https://node-do-zero-ot8g.onrender.com/videos/dea4c46a-f533-4f93-80c2-4addb01f6974
+POST http://localhost:3333/createuser
 Content-Type: application/json
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU3NzQ3NjZjLTg0MGEtNDc3YS04ZGQyLWIxYWQ4Y2UyNzZjMiIsImlhdCI6MTY5OTY1NTk1MH0.j5Ogp_NfBZpHukCjhU1HA5OapK6ZZoFF6QLfe_jgSoU
 
 {
-  "title": "Vídeo REACT",
-  "description": "Este é o vídeo 03",
-  "duration": 280
+  "name": "Edileia",
+  "login": "edileia@clicksul.com.br",
+  "password": "12345",
+  "userchange": "Amanda"
 }
 
 ###
 
-DELETE https://node-do-zero-ot8g.onrender.com/videos/3490ae39-2670-4b0b-ac2f-c732543a583c
+GET http://localhost:3333/readuser/aed241a3-fe8b-46d0-a2e9-6d3201168dbb
+Authorization: Bearer ceyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU3NzQ3NjZjLTg0MGEtNDc3YS04ZGQyLWIxYWQ4Y2UyNzZjMiIsImlhdCI6MTY5OTY1NTk1MH0.j5Ogp_NfBZpHukCjhU1HA5OapK6ZZoFF6QLfe_jgSoU
+
