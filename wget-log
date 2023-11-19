@@ -1,0 +1,10 @@
+--2023-11-19 14:40:50--  http://localhost:3333/
+Resolvendo localhost (localhost)... 127.0.0.1
+Conectando-se a localhost (localhost)|127.0.0.1|:3333... conectado.
+A requisição HTTP foi enviada, aguardando resposta... Erro de leitura (Conexão fechada pela outra ponta) nos cabeçalhos.
+Tentando novamente.
+
+--2023-11-19 14:42:46--  (tentativa: 2)  http://localhost:3333/
+Conectando-se a localhost (localhost)|127.0.0.1|:3333... falha: Conexão recusada.
+Resolvendo localhost (localhost)... 127.0.0.1
+Conectando-se a localhost (localhost)|127.0.0.1|:3333... falha: Conexão recusada.
