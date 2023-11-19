@@ -13,8 +13,8 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU3NzQ3NjZjLTg0MGEtNDc3YS04ZGQyLWIxYWQ4Y2UyNzZjMiIsImlhdCI6MTY5OTY1NTk1MH0.j5Ogp_NfBZpHukCjhU1HA5OapK6ZZoFF6QLfe_jgSoU
 
 {
-  "name": "Edileia",
-  "login": "edileia@clicksul.com.br",
+  "name": "Augusta",
+  "login": "augusta@clicksul.com.br",
   "password": "12345",
   "userchange": "Amanda"
 }
@@ -22,5 +22,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU3NzQ3NjZjL
 ###
 
 GET http://localhost:3333/readuser/aed241a3-fe8b-46d0-a2e9-6d3201168dbb
-Authorization: Bearer ceyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU3NzQ3NjZjLTg0MGEtNDc3YS04ZGQyLWIxYWQ4Y2UyNzZjMiIsImlhdCI6MTY5OTY1NTk1MH0.j5Ogp_NfBZpHukCjhU1HA5OapK6ZZoFF6QLfe_jgSoU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU3NzQ3NjZjLTg0MGEtNDc3YS04ZGQyLWIxYWQ4Y2UyNzZjMiIsImlhdCI6MTcwMDMyNDk5MX0.Hzetps98o7riENKqPoSMvbIfpJ2RoGfFI7bdpCAxgHQ
 
+###
+
+GET http://localhost:3333

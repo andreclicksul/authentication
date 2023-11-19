@@ -44,3 +44,6 @@ app
   .then(() => {
     console.log(' Server started!')
   })
+  .catch((e) => {
+    console.log(`' Server stoped -> ${e}`)
+  })

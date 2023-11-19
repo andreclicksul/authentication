@@ -5,6 +5,16 @@ import { prisma } from '../lib/prisma'
 import bcrypt from 'bcrypt'
 
 export async function authRoutes(app: FastifyInstance) {
+  app.get('/', async (request, reply) => {
+    try {
+      const user = await prisma.tb_user.findMany()
+
+      reply.code(200).send({ msg: 'Usuário OK', data: user })
+    } catch (e) {
+      reply.code(404).send({ msg: 'Usuário não cadastrado' })
+    }
+  })
+
   // Ler um usuário
   app.get('/readuser/:id', async (request, reply) => {
     try {
