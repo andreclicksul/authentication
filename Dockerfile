@@ -22,6 +22,6 @@ RUN npm config set update-notifier false
 
 ENTRYPOINT [ "/usr/Local/bin/entrypoint.sh" ]
 
-EXPOSE 3333
+EXPOSE 5000
 
 CMD [ "npm", "start" ]
